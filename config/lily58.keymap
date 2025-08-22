@@ -40,11 +40,11 @@
 
             label = "Lower";
             bindings = <
-&none  &none  &none       &none     &none          &none                          &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT        &none  &none
-&none  &none  &kp INSERT  &kp HOME  &kp PG_UP      &none                          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS            &none  &none
-&none  &none  &kp DELETE  &kp END   &kp PAGE_DOWN  &none                          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LPAR               &none  &none
-&none  &none  &none       &none     &none          &none  &none    &kp BACKSPACE  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RIGHT_PARENTHESIS  &none  &none
-                          &none     &none          &none  &none    &kp ENTER      &kp N0           &kp PERIOD       &none
+&none  &none  &none       &none     &none          &none                      &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &none                  &none  &none
+&none  &none  &kp INSERT  &kp HOME  &kp PG_UP      &none                      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS           &none  &none
+&none  &none  &kp DELETE  &kp END   &kp PAGE_DOWN  &none                      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS            &none  &none
+&none  &none  &none       &none     &none          &none  &none    &none      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RIGHT_PARENTHESIS  &none  &none
+                          &none     &none          &none  &none    &kp ENTER  &kp N0           &kp BACKSPACE    &kp KP_DOT
             >;
         };
 
